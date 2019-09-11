@@ -1,9 +1,11 @@
 <resources>
-    <string name="app_name">Teste_Estilo</string>
+    <string name="app_name">App Name</string>
     <string name="janela03">Janela03</string>
     <string name="abrir_janela01">Abrir Janela01</string>
     <string name="janela01">Janela01</string>
     <string name="janela02">Janela02</string>
     <string name="janela_02">Janela 02</string>
     <string name="janela03">Janela03</string>
+    <string name="sign_in">Sign In</string>
+    <string name="textfield"><u>Textfield</u></string>
 </resources>
