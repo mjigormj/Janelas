@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".terceiroActivity"></activity>
+        <activity android:name=".teste_barraActivity"/>
+        <activity android:name=".terceiroActivity" />
         <activity android:name=".LogoActivity" />
         <activity android:name=".EstrelaActivity" />
         <activity android:name=".JanelaTres_Activity" />
