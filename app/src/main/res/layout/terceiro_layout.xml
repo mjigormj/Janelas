@@ -45,9 +45,8 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight=""
-                    android:hint="Price:"
-                    android:textColorHint="@color/fundo"
+                    android:text="Price:"
+                    android:textColor="@color/fundo"
                     android:textSize="20dp" />
 
                 <View
@@ -61,8 +60,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:hint="Image ID:"
-                    android:textColorHint="@color/fundo"
+                    android:text="Image ID:"
+                    android:textColor="@color/fundo"
                     android:textSize="20dp" />
 
                 <View
@@ -77,10 +76,10 @@
                     android:layout_marginTop="104dp"
                     android:layout_weight="1"
                     android:background="@color/fundo"
-                    android:hint="Download"
                     android:paddingLeft="10dp"
                     android:paddingRight="13dp"
-                    android:textColorHint="#fff"
+                    android:text="Download"
+                    android:textColor="#fff"
                     android:textSize="20dp" />
 
             </LinearLayout>
@@ -102,23 +101,23 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="Owner:"
-                android:textColorHint="@color/fundo"
+                android:text="Owner:"
+                android:textColor="@color/fundo"
                 android:textSize="20dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="Description:"
-                android:textColorHint="@color/fundo"
+                android:text="Description:"
+                android:textColor="@color/fundo"
                 android:textSize="20dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:hint="Lorem ipusr dolar sit amet, consetector adspiscing elit. Ut interdum enim vitae libero"
-                android:textColorHint="@color/fundo" />
+                android:text="Lorem ipusr dolar sit amet, consetector adspiscing elit. Ut interdum enim vitae libero"
+                android:textColor="@color/fundo" />
         </LinearLayout>
 
         <View
@@ -131,8 +130,8 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginHorizontal="30dp">
+            android:layout_marginHorizontal="30dp"
+            android:orientation="horizontal">
 
             <ImageView
                 android:layout_width="wrap_content"

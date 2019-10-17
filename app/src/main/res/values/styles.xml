@@ -22,6 +22,12 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="appLoginBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#773F6EB5</item>
+        <item name="colorPrimaryDark">@color/appLoginBack</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
 
 
 </resources>

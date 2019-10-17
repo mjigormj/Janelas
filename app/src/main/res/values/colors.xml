@@ -4,6 +4,9 @@
     <color name="colorPrimaryDark">#D36F63</color>
     <color name="colorAccent">#D36F63</color>
     <color name="fundo">#E6ABA4</color>
-    <color name="text">#fff</color>
-    <color name="colorToolBar">#773F6EB5</color>
+    <color name="text">#ffff</color>
+    <color name="colorToolBar">#2A5FD1</color>
+    <color name="appLoginBack">#2A5FD1</color>
+    <color name="appLoginButton">#0C2F9C</color>
+
     </resources>
