@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/appLoginBack"
     android:orientation="horizontal"
-    tools:context=".AppLoginActivity">
-
+    tools:context=".App_login_cadastro_Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,7 +22,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="50dp"
+            android:layout_margin="40dp"
             android:text="Apps Login"
             android:textColor="@color/text"
             android:textSize="40dp" />
@@ -32,10 +31,33 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableEnd="@drawable/usuario"
+            android:hint="Login"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edt_borda"
+            android:paddingHorizontal="20dp"
+            android:textColorHint="@color/text"
+            android:textSize="25dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_email"
+            android:hint="E-mail"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edt_borda"
+            android:paddingHorizontal="20dp"
+            android:textColorHint="@color/text"
+            android:textSize="25dp" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/senha"
+            android:hint="Senha"
+            android:background="@drawable/edt_borda"
             android:paddingHorizontal="20dp"
             android:layout_marginBottom="20dp"
-            android:hint="Login"
-            android:background="@drawable/edt_borda"
             android:textColorHint="@color/text"
             android:textSize="25dp" />
 
@@ -43,10 +65,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:drawableEnd="@drawable/senha"
-            android:background="@drawable/edt_borda"
             android:hint="Senha"
+            android:background="@drawable/edt_borda"
             android:paddingHorizontal="20dp"
-            android:paddingLeft="5sp"
             android:textColorHint="@color/text"
             android:textSize="25dp" />
 
@@ -54,31 +75,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="30dp"
-            android:background="@drawable/btn_rendondo"
-            android:text="Sign In"
+            android:text="Sign up"
             android:textAllCaps="false"
-            android:textSize="20sp"
+            android:background="@drawable/btn_rendondo"
+            android:padding="10dp"
+            android:textSize="20dp"
             android:textColor="@color/text" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="@string/forget_password"
-            android:textColor="@color/text"
-            android:textStyle="bold" />
-
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="140dp"
-            android:gravity="center"
-            android:text="@string/don_t_have_an_account_creat_new"
-            android:textColor="@color/text"
-            android:textStyle="bold" />
 
     </LinearLayout>
 
-
 </LinearLayout>
+
