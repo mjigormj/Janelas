@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".App_login_cadastro_Activity"></activity>
+        <activity android:name=".App_Bandio_Activity"></activity>
+        <activity android:name=".App_login_cadastro_Activity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".AppLoginActivity">
             <intent-filter>
@@ -22,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".terceiroActivity" />
-        <activity android:name=".LogoActivity"></activity>
+        <activity android:name=".LogoActivity" />
         <activity android:name=".EstrelaActivity" />
     </application>
 
