@@ -25,7 +25,7 @@
             android:layout_margin="40dp"
             android:text="Apps Login"
             android:textColor="@color/text"
-            android:textSize="40dp" />
+            android:textSize="40dp"/>
 
         <EditText
             android:layout_width="match_parent"
