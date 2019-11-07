@@ -29,5 +29,12 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="appBandio" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#F9355B</item>
+        <item name="colorPrimaryDark">@color/colorBandio</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
 
 </resources>

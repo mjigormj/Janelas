@@ -8,5 +8,8 @@
     <color name="colorToolBar">#2A5FD1</color>
     <color name="appLoginBack">#2A5FD1</color>
     <color name="appLoginButton">#0C2F9C</color>
+    <color name="colorBandio">#F9355B</color>
+    <color name="btnBandio">#FC153E</color>
+
 
     </resources>
